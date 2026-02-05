@@ -1,0 +1,6 @@
+venv
+.env
+dl-curriculum.pdf
+12.RAG.langchain-retrievers/langchain_retrievers.ipynb
+13.RAG.rag-using-langchain-Youtube/rag_using_langchain_hugging_face.ipynb
+3.Agent/2.tool_calling_in_langchain/tool_calling_in_langchain.ipynb

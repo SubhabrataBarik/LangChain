@@ -1,0 +1,4 @@
+Stroutput: Only convert to str
+JSONoutput: No Schema,  
+Structuredoutput: give structure, no data validation
+Pydanticoutput: Give structure, give data validation

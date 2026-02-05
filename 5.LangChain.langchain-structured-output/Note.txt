@@ -1,0 +1,3 @@
+TypedDict: Only python language, no validation needed as we trust our LLMs
+Pydantic: Only python language, data validation, can set default values, automatic type conversion
+JSON Schema: Work multiple languages, no automatic conversion, data validation
