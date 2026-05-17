@@ -33,8 +33,8 @@ llm = HuggingFaceEndpoint(
 # )
 
 
-model = ChatHuggingFace(llm=llm)
-# model = ChatOpenAI()
+# model = ChatHuggingFace(llm=llm)
+model = ChatOpenAI()
 
 # 1st prompt -> detailed report
 template1 = PromptTemplate(

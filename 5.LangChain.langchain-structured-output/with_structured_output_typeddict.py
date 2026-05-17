@@ -35,3 +35,5 @@ Review by Nitish Singh
 """)
 
 print(result['name'])
+for i in result:
+    print(i, result[i])

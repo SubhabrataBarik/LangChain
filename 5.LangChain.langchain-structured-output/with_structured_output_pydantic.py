@@ -36,3 +36,5 @@ Review by Nitish Singh
 """)
 
 print(result)
+for i in result:
+    print(i)
