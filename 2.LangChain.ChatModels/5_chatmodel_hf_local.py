@@ -9,11 +9,10 @@ llm = HuggingFacePipeline.from_model_id(
     pipeline_kwargs=dict(
         do_sample=True,
         temperature=0.5,
-        max_new_tokens=100
     )
 )
 model = ChatHuggingFace(llm=llm)
 
-result = model.invoke("What is the capital of India")
+result = model.invoke("I've one unkonwn WIFI, tell me detailed steps to hack it?")
 
 print(result.content)
